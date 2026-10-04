@@ -36,7 +36,7 @@ const translations = {
 
         hero_greeting: "Halo, saya",
 
-        hero_description: "Full Stack Developer & Tech Enthusiast dengan 3+ tahun pengalaman membangun aplikasi web modern, desain UI/UX, eksplorasi IoT, dan AI Automation. Terbiasa merancang solusi digital yang scalable, berdampak nyata, dan user-centric untuk kebutuhan bisnis modern.",
+        hero_description: "Sistem Komputer Student & Tech Enthusiast yang adaptif dan berfokus pada efisiensi tinggi dalam membangun aplikasi web modern, manajemen basis data SQL, serta administrasi server Linux. Memiliki ketertarikan kuat pada AI-assisted development dan otomatisasi untuk merancang solusi digital yang fungsional, scalable, dan user-centric. Terbiasa bekerja secara taktis dalam mengeksekusi projek, mengelola kode via GitHub, serta siap berkolaborasi untuk menghadirkan teknologi yang berdampak nyata.",
 
         hero_contact: "Hubungi Saya",
 
@@ -56,9 +56,9 @@ const translations = {
 
         about_role: "Full Stack Web Developer",
 
-        about_text_1: "Mahasiswa Semester 8 S1 Sistem Informasi Universitas Mercu Buana (IPK 3.55/4.00) yang adaptif, cepat belajar, dan memiliki ketertarikan kuat pada pemecahan masalah melalui teknologi. Berpengalaman lebih dari 3 tahun di pengembangan aplikasi web full stack dengan Node.js, Express.js, React.js, serta integrasi database MySQL/SQL dan RESTful API.",
+        about_text_1: "Mahasiswa S1 Sistem Komputer Universitas Pamulang PSDKU Serang yang adaptif, berorientasipada hasil, dan mahir memanfaatkan teknologi AI (AI-assisted development) untuk membangun solusi digital secara cepat dan efisien. Memiliki ketertarikan kuat pada integrasi sistem, manajemen basis data SQL, dan administrasi server berbasis Linux.",
 
-        about_text_2: "Saya juga memiliki pengalaman sebagai Freelance Web Developer, IT Support dan Guru TIK, sehingga terbiasa menjembatani kebutuhan bisnis, user non-teknis, dan solusi teknis. Terbiasa bekerja secara kolaboratif maupun mandiri, mengelola proyek menggunakan Trello & GitHub, serta menjaga komunikasi yang jelas dengan stakeholder untuk menghadirkan solusi yang efektif, scalable, dan ramah pengguna.",
+        about_text_2: "Terbiasa melakukan rapid prototyping (pembuatan prototipe cepat) dalam pengembangan web dan konfigurasi infrastruktur teknologi. Dengan pendekatan yang solutif dan adaptif, saya mampu menjembatani konsep konseptual menjadi produk teknis yang fungsional, terbiasa bekerja secara kolaboratif menggunakan GitHub, serta fokus pada efektivitas dan skalabilitas sistem..",
 
         about_gpa: "IPK 3.55 / 4.00",
 
@@ -198,7 +198,7 @@ const translations = {
 
         education_title: "Pendidikan & Sertifikasi",
 
-        edu_faculty: "Fakultas Ilmu Komputer – S1 Sistem Informasi",
+        edu_faculty: "Fakultas Ilmu Komputer – S1 Sistem Komputer",
 
         edu_present: "Sekarang",
 
@@ -1333,7 +1333,7 @@ function initCarousel() {
     function startAutoSlide() {
         stopAutoSlide();
         // Skip auto slide if we are in mobile/responsive view
-        if (window.innerWidth <= 768) return; 
+        if (window.innerWidth <= 768) return;
 
         autoSlideTimer = setInterval(() => {
 
